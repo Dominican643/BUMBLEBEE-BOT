@@ -8,10 +8,10 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 
 global.owner = [
-  ['2347015667458', '👑 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 𝐂𝐑𝐄𝐀𝐓𝐎𝐑👑', true],
-  ['2347017855652', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
-  ['2348145099774', '💫𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 💫', true],
-  ['2349063382597', '💫 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓💫', true],
+  ['2347015667458', '🦅 𝙏𝞖𝞢 𝘿𝞢𝝯𝞘𝙇 𝞑𝞗𝙏 𝞗𝙒𝞜𝞢𝞒 🦅', true],
+  ['2347017855652', '🕊️ 𝙏𝞖𝞢 𝘿𝞢𝝯𝞘𝙇 𝞑𝞗𝙏 🕊️', true],
+  ['2348145099774', '🕊️ 𝙏𝞖𝞢 𝘿𝞢𝝯𝞘𝙇 𝞑𝞗𝙏 🕊️', true],
+  ['2349063382597', '🕊️ 𝙏𝞖𝞢 𝘿𝞢𝝯𝞘𝙇 𝞑𝞗𝙏 🕊️', true],
 ];
 
 global.suittag = ['2347017855652'];
@@ -19,9 +19,9 @@ global.prems = ['234701566748'];
 
 global.packname = '𝞑𝞢𝙇𝞗𝞜𝙂𝙎 𝙏𝞗;
 global.author = '𝙏𝞖𝞢 𝘿𝞢𝝯𝞘𝙇';
-global.wm = '★𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓★';
-global.igfg = '★𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓★';
-global.wait = '*[❗] 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 𝐈𝐒 𝐋𝐎𝐀𝐃𝐈𝐍𝐆...*';
+global.wm = '✞𝙏𝞖𝞢 𝘿𝞢𝝯𝞘𝙇🧘𝞑𝞗𝙏✞';
+global.igfg = '✞𝙏𝞖𝞢 𝘿𝞢𝝯𝞘𝙇🧘𝞑𝞗𝙏✞';
+global.wait = '*[❗] 𝙏𝞖𝞢 𝘿𝞢𝝯𝞘𝙇🧘𝞑𝞗𝙏 𝐈𝐒 𝐋𝐎𝐀𝐃𝐈𝐍𝐆...*';
 
 global.imagen1 = fs.readFileSync('https://telegra.ph/file/bfe7579f1b394f8cddc04.jpg');
 global.imagen2 = fs.readFileSync('https://telegra.ph/file/c4934f2ed246cac32e3e6.jpg');
@@ -41,14 +41,14 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓`;
-global.gt = '★𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓★';
-global.mysticbot = '★𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓★';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝙏𝞖𝞢 𝘿𝞢𝝯𝞘𝙇🧘𝞑𝞗𝙏`;
+global.gt = '✞𝙏𝞖𝞢 𝘿𝞢𝝯𝞘𝙇🧘𝞑𝞗𝙏✞';
+global.mysticbot = '✞𝙏𝞖𝞢 𝘿𝞢𝝯𝞘𝙇🧘𝞑𝞗𝙏✞';
 global.md = 'https://github.com/Dominican643';
 global.mysticbot = 'https://github.com/Dominican643';
-global.waitt = '*[❗] 𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 𝐈𝐒 𝐋𝐎𝐀𝐃𝐈𝐍𝐆...*';
-global.waittt = '*[❗]𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝,,,,,,,,,,,,,,,,,,,,,,,,,,,,𝐁𝐎𝐓 𝐈𝐒 𝐋𝐎𝐀𝐃𝐈𝐍𝐆...*';
-global.waitttt = '*[❗]𝐁𝐔𝐌𝐁𝐋𝐄𝐁𝐄𝐄🐝𝐁𝐎𝐓 𝐈𝐒 𝐋𝐎𝐀𝐃𝐈𝐍𝐆...*';
+global.waitt = '*[❗] 𝙏𝞖𝞢 𝘿𝞢𝝯𝞘𝙇🧘𝞑𝞗𝙏 𝐈𝐒 𝐋𝐎𝐀𝐃𝐈𝐍𝐆...*';
+global.waittt = '*[❗]𝙏𝞖𝞢 𝘿𝞢𝝯𝞘𝙇🧘,,,,,,,,,,,,,,,,,,,,,,,,,,,,𝐁𝐎𝐓 𝐈𝐒 𝐋𝐎𝐀𝐃𝐈𝐍𝐆...*';
+global.waitttt = '*[❗]𝙏𝞖𝞢 𝘿𝞢𝝯𝞘𝙇🧘𝞑𝞗𝙏 𝐈𝐒 𝐋𝐎𝐀𝐃𝐈𝐍𝐆...*';
 global.nomorown = '2347015667458';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
